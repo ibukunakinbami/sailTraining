@@ -1,0 +1,80 @@
+h1:hover{
+    color: blue;
+}
+
+/*
+input:optional{
+    margin: 2rem;
+}
+*/
+
+input:checked{
+    margin: 2rem;
+}
+
+p:first-of-type{
+    color:green;
+}
+
+p:last-of-type{
+    color:blueviolet;
+}
+
+/* br:empty{
+    line-height: 4rem;
+} */
+
+p:nth-of-type(odd){
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p:nth-of-type(even){
+    background-color: gray;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li:first-child{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li:nth-child(odd){
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+
+li:nth-child(even){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+li:last-child{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p::after{
+    content: "😊";
+}
+
+/* p::before{
+    content: "🎶";
+} */
+
+p::first-line{
+    color: red;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p::first-letter{
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+h1::selection{
+    background-color: green;
+    color: white;
+    
+}

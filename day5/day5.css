@@ -1,0 +1,12 @@
+h1{
+    color: rgb(248, 4, 45);
+    text-align: center;
+}
+
+h1 a{
+    text-decoration: none;
+}
+
+h1 a:hover{
+    color: rgb(255, 95, 122);
+}
