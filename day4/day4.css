@@ -1,4 +1,6 @@
-body
+body{
+    background-color: azure;
+}
 
   .firstSection{
       background-color: rgb(216, 214, 214);
