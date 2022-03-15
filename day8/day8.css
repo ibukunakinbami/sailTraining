@@ -1,6 +1,7 @@
 .container1{
     display: flex;
     justify-content: center;
+    color: gray;
 }
 
 .tag1, .tag2, .tag3{
