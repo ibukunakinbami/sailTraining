@@ -1,0 +1,28 @@
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.tag1, .tag2, .tag3{
+    border: 1px solid black;
+    width: 25%;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tag4, .tag5, .tag6{
+    border: 1px solid blue;
+    width: 25%;
+}
+
+.container3{
+    display: flex;
+}
+
+.tag7, .tag8, .tag9, .tag10, .tag11, .tag12{
+    border: 1px solid green;
+}
+
