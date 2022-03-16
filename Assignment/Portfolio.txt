@@ -1,0 +1,20 @@
+Assignment 1
+
+Complete the CVBuild UI
+
+Assignment 2
+
+Create your Personal Portfolio to submitted on next week Thursday 24th March, 2022
+
+1.	Logo
+2.	Tagline
+3.	Call to Action
+4.	Image Gallery(minimum 2)
+5.	Services you Offer
+6.	Information About you
+7.	Contact Information
+8.	Form to contact you
+
+use either SPA(use # and id to link with a page) or multiple pages 
+
+etc
