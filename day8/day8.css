@@ -9,6 +9,21 @@
     width: 25%;
 }
 
+.tag1{
+    order: 3;
+    flex: 1;
+}
+
+.tag2{
+    order: 1;
+    flex: 1;
+}
+
+.tag3{
+    order: 2;
+    flex: 2;
+}
+
 .container2{
     display: flex;
     justify-content: space-around;
@@ -25,5 +40,36 @@
 
 .tag7, .tag8, .tag9, .tag10, .tag11, .tag12{
     border: 1px solid green;
+    width: 25%;
 }
+
+/*
+.tag7{
+    order: 3;
+}
+*/
+ .tag11{
+     order: 1;
+ }
+
+ .tag12{
+     order: 2;
+ }
+
+ .tag7{
+     order: 3;
+ }
+
+ .tag8{
+     order: 4;
+ }
+
+ .tag9{
+     order: 5;
+ }
+
+ .tag10{
+     order: 6;
+ }
+
 
