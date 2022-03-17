@@ -1,99 +1,108 @@
-body{
-    background-color: azure;
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-  .firstSection{
-      background-color: rgb(216, 214, 214);
-      border-radius: 5px;
-  }
+.firstSection {
+    background-color: white;
+    padding: 8px;
+    margin-bottom: 1px;
+}
 
-  .logo{
-      background-color: blue;
-      color: white;
-      padding: 2px;
-      margin-right: 2px;
-      border-radius: 10px;
-      font-weight: bolder;
-      margin-left: 10px;
-  }
+.logo {
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    margin-right: 2px;
+    border-radius: 10px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
 
- .firstSectionList {  
-      display: inline-block;  
-      margin-left: 300px;             
-  }
+.firstSectionList {
+    display: inline-block;
+    margin-left: 300px;
+}
 
-  .firstSectionList li{
-      display: inline;
-      margin-left: 10px;
-      color: blue;
-      font-weight: bold;
-  }
+.firstSectionList li {
+    display: inline;
+    margin-left: 10px;
+    font-weight: bolder;
+    margin: 20px;
+    color: rgb(61, 61, 61);
+}
 
-  .firstSectionList  li:nth-child{
-      color: red;
-      font-size: 50px;
-  }
+a:link {
+    text-decoration: none;
+}
 
-  a:link{
-      text-decoration: none;
-  }
-  
-  .firstSectionList a:hover{
-      color: gray;
-  }
+.firstSectionList a:hover {
+    color: rgb(41, 41, 247);
+}
 
-  .firstSectionButton{
-      float: right;
-      padding-top: 10px;
-  }
+.firstSectionButton {
+    float: right;
+    margin-right: 20px;
+}
 
-  .firstSectionButtonOne{
-      background-color: rgb(241, 239, 235);
-      color: rgb(253, 145, 163);
-      border: none;
-      border-radius: 5px;
-      font-size: 20px;
-      
-  }
+.firstSectionButtonOne,
+.firstSectionButtonTwo {
+    background-color: rgb(41, 41, 247);
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12x;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+}
 
-  .firstSectionButtonTwo{
-      background-color: blue;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      font-size: 20px;
-  }
+.firstSectionButtonOne {
+    background-color: rgb(243, 243, 243);
+    color: rgb(61, 61, 61);
+    margin-right: 20px;
+}
 
-  /*
-  .firstSectionButtonOne a{
-      font-size: 15px;
-  }
+.firstSectionButtonOne:hover{
+    background-color: rgb(41, 41, 247);
+    color: white;
+}
 
-  .firstSectionButtonTwo a{
-      font-size: 15px;
-  }
+h1{
+    font-size: 40px;
+}
+.secondSection {
+    margin-top: 50px;
+}
 
-  
-  .firstSectionButtonOne:hover{
-      background-color: red;
-      color: white;
-  }
+.secondSection-left {
+    margin-left: 30px;
+    display: inline-block;
+}
 
-  .firstSectionButtonTwo:hover{
-      background-color: red;
-      color: white;
-  }
-  */
+.secondSectionButton {
+    background-color: rgb(41, 41, 247);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-  .secondSection{
-      margin-top: 50px;
-  }
+.firstSectionButtonTwo:hover,
+.secondSectionButton:hover {
+    background-color: goldenrod;
+}
 
-  .secondSection-left{
-      margin-left: 30px;
-      display: inline-block;
-    }
 
+/*
   .secondSectionButton {
       background-color: blue;
       border-radius: 5px;
@@ -101,10 +110,10 @@ body{
       padding: 15px;
       color: white;
     }
-    
-    .secondSection-right{
-        float: right;
-        margin-right: 100px;
-    }
+    */
+
+.secondSection-right {
+    float: right;
+    margin-right: 100px;
 }
-  
+}
