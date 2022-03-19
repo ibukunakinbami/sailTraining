@@ -4,6 +4,22 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
+
 h1{
     text-align: center;
     font-size: 30px;

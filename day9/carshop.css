@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(240, 240, 240);
 }
 
 h1{
@@ -38,7 +38,8 @@ h2{
 
 img{
     width: 300px; 
-    height: 200px;      
+    height: 200px;
+    border-radius: 5%;      
 }
 
 p{
@@ -48,15 +49,17 @@ p{
 button{
     background-color: black;
     color: white;
-    padding: 5px 20px;
+    padding: 5px 10px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 3px;
     text-align: center;
-    margin-left: 25%;
+    margin-left: 35%;
     margin-top: 10px;
     font-family: sans-serif;
+    font-weight: bold;
+    font-style: oblique;
 }
 
 button:hover{
