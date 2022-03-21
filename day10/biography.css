@@ -1,0 +1,76 @@
+.main{
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    border: 1px solid gray;
+}
+
+.header  {
+    text-align: center;
+    
+}
+
+p1{
+    font-weight: bolder;
+}
+
+
+.svg1{
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5%;
+}
+
+
+.firstSection{
+    height: 25%;
+    background-color: white;
+    color: black;
+}
+
+.profile{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    float: right;
+}
+
+span{
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.secondSection{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+hr{
+    width: 70%;
+}
+
+.footer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footerSection{
+    width: 3%;
+    height: 3%;
+}
+
+#dev{
+    color: blue;
+    text-decoration: none;
+}
+
+
+
