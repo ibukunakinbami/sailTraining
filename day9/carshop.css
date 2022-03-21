@@ -63,8 +63,8 @@ button{
 }
 
 button:hover{
-    color: blue;
-    background-color: white;
+    color: white;
+    background-color: blue;
 }
 
 
