@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ibukun Akinbami Portfolio</title>
     <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,6 +38,7 @@
                 </ul>
             </div>
         </div>
+        <hr>
 
         <div id="home">
             <div id="home-left">
@@ -51,10 +55,11 @@
                 </p>
                 <button id="btn-1">Hire Me</button>
             </div>
-        </div>
+        </div> 
+        <hr>
 
         <div id="gallery">
-            <h1>GALLERY</h1>
+            <h1 id="heading">GALLERY</h1>
             <div id="main-gallery">
                 <img src="/image/coding1.jpg" alt="">
                 <img src="/image/coding2.jpg" alt="">
@@ -64,9 +69,10 @@
                 <img src="/image/coding6.jpg" alt="">
             </div>
         </div>
+        <hr>
 
         <div id="services">
-            <h1 id="headings">SERVICES</h1>
+            <h1 id="heading">SERVICES</h1>
             <div id="services-name">
                 <div id="services-group">
                     <h2 id="headings">Website Design</h2>
@@ -90,31 +96,29 @@
                     </p>
                 </div>                  
             </div>
-        </div>     
+        </div>
+        <hr>     
 
-
-
+        <div id="contact-me">
+            <h1 id="heading">CONTACT ME</h1>
+            <form action="">
+                <label for="fullame">Name</label><br>
+                <input type="text" name="" id="fullname" placeholder="Enter your Name"> <br>
+                <label for="email">Email</label> <br>
+                <input type="email" name="" id="email" placeholder="Enter your Email"><br>
+                <label for="phone">Pnone Number</label> <br>
+                <input type="tel" name="" id="phone" placeholder="Enter your Phone Number"> <br>
+                <textarea name="" id="messagebox" cols="30" rows="10" placeholder="Drop Message for me"> Message</textarea><br>
+                <input type="submit" value="Submit" id="btn-2">
+            </form>
+        </div>
+        <hr>
+    
+        <div id="footer">
+            &Copy Designed by HIGHBEKAY CONSULTING
+        </div>
     </div>
 
-    <div id="contact-me">
-        <h1 id="contact-me-headings">CONTACT ME</h1>
-        <form action="">
-            <label for="fullame">Name</label><br>
-            <input type="text" name="" id="fullname" placeholder="Enter your Name"> <br>
-            <label for="email">Email</label> <br>
-            <input type="email" name="" id="email" placeholder="Enter your Email"><br>
-            <label for="phone">Pnone Number</label> <br>
-            <input type="tel" name="" id="phone" placeholder="Enter your Phone Number"> <br>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your Message"> Message</textarea> <br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-
-    <div id="footer">
-        &Copy Designed by HIGHBEKAY CONSULTING
-    </div>
-
-    </div>
 </body>
 
 </html>

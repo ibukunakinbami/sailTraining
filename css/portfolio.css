@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 html {
@@ -13,17 +13,18 @@ a {
     color: white;
 }
 
-h1 {
+#heading {
     text-align: center;
     font-size: 50px;
     margin: 20px;
+    color: white;
 }
 
 /* Navigation Bar */
 #navbar {
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 #ibk-logo {
@@ -81,7 +82,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     padding: 2%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     
 }
 
@@ -102,7 +103,7 @@ h1 {
     text-align: justify;
 }
 
-#btn-1 {
+#btn-1, #btn-2 {
     padding: 15px 30px;
     font-weight: bold;
     color: white;
@@ -128,10 +129,11 @@ h1 {
 #gallery {
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     color: white;
     align-items: center;
     padding: 20px;
+    margin-bottom: none;
 }
 
 #main-gallery {
@@ -149,7 +151,53 @@ h1 {
 /* services section */
 
 #services{
-      
+    background-color: rgba(0, 0, 0, 0.2); 
+    margin-top: 0;     
 }
 
+/* contact Section */
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 25%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+form{
+    font-display: flex;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#fullname, #email, #phone{
+    padding: 10px;
+    width: 30%;
+    margin: 1%;
+}
+
+#messagebox{
+    width: 32%;
+}
+
+#btn-2{
+   margin-top: 5px; 
+}
+
+#btn-2:hover {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 2%;
+}
 
