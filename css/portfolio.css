@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+#navbar ul li {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#navbar ul li:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 2px;
+    
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("/image/ibukun-1.jpg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+#main-container{
+    width: 80%;
+    height: 1000px;
+}
+
+#header{
+    height: 10%;
+    display: flex; 
+}
+
+#headerlist li{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}   
+
+#firstSection{
+    height: 20%;
+    background-color: gray;
+    display: flex;
+    margin: auto;
+}
+
+#left-firstSection{
+    width: 50%;
+}
+
+#right-firstSection{
+    width: 50%;
+}
+
+#secondSection{
+    height: 20%;
+}
+
+#left-secondSection{
+    width: 50%;
+}
+
+#right-secondSection{
+    width: 50%;
+}
+
+#thirdSection{
+    height: 20%;
+}
+
+#left-thirdSection{
+    width: 50%;
+}
+
+#right-thirdSection{
+    width: 50%;
+}
+
+#fourthSection{
+    height: 20%;
+}
+
+#left-fourthSection{
+    width: 50%;
+}
+
+#right-fourthSection{
+    width: 50%;
+}
+
+#footer{
+    height: 10%;
+}
+
+ */

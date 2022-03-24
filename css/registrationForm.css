@@ -1,37 +1,44 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(144, 144, 243);
+    background-color: rgb(228, 224, 224);
 }
 
 #main{
     margin: auto;
     width: 80%;
-    height: 600px;
+    height: 800px;
     display: flex;
-    border: 1px solid gray;
-    border-radius: 2%;
+    border: 1px solid rgb(253, 253, 253);
+    margin-top: 3%;
+    font-size: 20px;
+    box-shadow: 0px 5px 20px 0px;
 }
 
 #leftSection{
     padding-top: 0%;
     width: 50%;
-    background-image: url("/image/ibukun-suit.png");
+    background-image: url("/image/ibukun-1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     padding-left: 3%;
     color: white;
     background-color: rgba(141, 50, 226, 0.432);
 }
 
 h1{
-    font-size: 120px;
+    font-size: 140px;
 }
 
-p1{
+#p1{
     font-weight: bold;
 }
 
-p2{
+#p2{
     font-weight: bold;
+}
+
+#sm{
+    margin-top: 3%;
 }
 
 #button-fb{
@@ -78,6 +85,7 @@ p2{
 
 span{
     color: blue;
+    cursor: pointer;
 }
 
 #formReg{
@@ -85,7 +93,8 @@ span{
 }
 
 #rightformReg{
-    margin-left: 10%;
+    margin-left: 15%;
+    margin-top: -3px;
 }
 
 #firstname, #lastname, #phone, #email, #password1, #password2{
@@ -94,6 +103,7 @@ span{
     padding-left: 3%;
     padding-top: 3%;
     padding-bottom: 3%;
+    width: 200px;
 }
 
 #checkbox1, #checkbox2{
