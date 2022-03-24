@@ -57,8 +57,9 @@ myCalculator =  4;
 console.log(myCalculator/2)
 console.log("")
 
-
-
+// var currentYear = document.write(new Date().getFullYear())
+// console.log(currentYear)
+// console.log("")
 
 
 

@@ -100,7 +100,15 @@ a {
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
+}
+
+#skills{
+    color: goldenrod;
+}
+
+#skills-heading{
+    color: rgb(9, 9, 87);
 }
 
 #btn-1, #btn-2 {
@@ -110,18 +118,17 @@ a {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    margin-top: 40px;
+    margin-top: 10px;
     background-color: rgb(9, 9, 87);
     border-radius: 4px;
 }
 
 #btn-1:hover {
-    padding: 10px 20px;
     font-weight: bold;
     color: white;
-    font-size: 20px;
     cursor: pointer;
     background-color: blue;
+    box-shadow: 0 0 10px blue;
 }
 
 /* Gallery  Section*/
@@ -175,23 +182,26 @@ form{
     padding: 10px;
     width: 30%;
     margin: 1%;
+    border: none;
 }
 
 #messagebox{
     width: 32%;
+    border: none;
 }
 
 #btn-2{
-   margin-top: 5px; 
+   margin-top: 7px; 
 }
 
 #btn-2:hover {
-    padding: 10px 20px;
+    padding: 15px 30px;
     font-weight: bold;
     color: white;
     font-size: 16px;
     cursor: pointer;
     background-color: blue;
+    box-shadow: 0 0 10px blue;
 }
 
 #footer{
