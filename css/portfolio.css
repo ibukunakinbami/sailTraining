@@ -1,4 +1,68 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+#navbar ul li {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#navbar ul li:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 2px;
+}
+
+/* Home Section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-color: rgb(240, 240, 240);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 20px;
@@ -85,4 +149,4 @@ img {
     height: 10%;
 }
 
-
+ */
