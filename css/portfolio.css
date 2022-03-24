@@ -38,9 +38,29 @@ a {
     color: black;
     box-shadow: 0 0 10px white;
     border-radius: 2px;
+    
 }
 
 /* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("/image/ibukun-1.jpg") no-repeat center center/cover;
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
 
 
 
