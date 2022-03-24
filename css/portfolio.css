@@ -23,7 +23,7 @@ h1 {
 #navbar {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0);
 }
 
 #ibk-logo {
@@ -73,16 +73,16 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     width: 50%;
-    /* border: 1px solid gray; */
-    border-radius: 100px;
 }
 
 #home-right {
     width: 50%;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-weight: bold;
-    padding-top: 3%;
+    padding: 2%;
+    background-color: rgba(0, 0, 0, 0.6);
+    
 }
 
 #home-right h1 {
@@ -147,3 +147,9 @@ h1 {
 }
 
 /* services section */
+
+#services{
+      
+}
+
+
