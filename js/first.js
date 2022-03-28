@@ -96,6 +96,14 @@ console.log("")
 console.log("The content of 0th, 4th and 8th Index in joel2 is " + joel2[0] + "  " + joel2[4] + " " + joel2[8])
 console.log("") 
 
+var k = "Lab";
+var a = k.split('')
+console.log(a)
+var result = a.slice(-1);
+console.log(result)
+console.log(typeof(k))
+console.log("")
+
 
 
 

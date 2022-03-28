@@ -200,7 +200,7 @@ a {
 
 #services{
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
 }
 
 /* contact Section */
