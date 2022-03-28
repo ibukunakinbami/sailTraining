@@ -61,5 +61,45 @@ console.log("")
 // console.log(currentYear)
 // console.log("")
 
+// Monday 28th March, 2022
+
+// LENGTH OF A VARIABLE
+var adeola = "beautiful";
+segun = ("The length of adeola Content is " + adeola.length)
+console.log(segun)
+console.log("")
+
+//Change of String CASE
+var pancho = "lunch"
+segun2 = ("The length of pancho Content is " + pancho.length)
+console.log(segun2)
+console.log("")
+segun2= pancho.toUpperCase()
+console.log(segun2)
+console.log("")
+
+var colorBlue = "IBUKUN, JOSEPH, AKINBAMI";
+var newColor = colorBlue.split(',')
+console.log(newColor)
+console.log(newColor[1])
+console.log("")
+
+var joel = "Parenthesis";
+var joel2 = joel.split('')
+console.log(joel2)
+console.log()
+console.log("The content of 4th Index in joel2 is " + joel[3])
+console.log("The content of 7th Index in joel2 is " + joel[6])
+console.log("The content of 8th Index in joel2 is " + joel[7])
+console.log("The content of 11th Index in joel2 is " + joel[10])
+console.log("")
+console.log("The content of 0th, 4th and 8th Index in joel2 is " + joel2[0] + "  " + joel2[4] + " " + joel2[8])
+console.log("") 
+
+
+
+
+
+
 
 
