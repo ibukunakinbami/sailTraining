@@ -1,2 +1,7 @@
+Tuesday, 29th March, 2022
+
 Box Shadow
 box-shadow: 0 0 10px blue;
+
+Github porfolio link
+https://ibukunakinbami.github.io/ibukun-portfolio/
