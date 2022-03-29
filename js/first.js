@@ -96,12 +96,15 @@ console.log("")
 console.log("The content of 0th, 4th and 8th Index in joel2 is " + joel2[0] + "  " + joel2[4] + " " + joel2[8])
 console.log("") 
 
-var k = "Lab";
-var a = k.split('')
-console.log(a)
-var result = a.slice(-1);
-console.log(result)
-console.log(typeof(k))
+//Examples of Length method Operations
+var sail = "SAIL TECH TALENT PROGRAM BY SENATOR ABIRU";
+var sail2 = sail.length-1;
+console.log("The index of last letter of the sentence in sail is " + sail2)
+console.log("")
+
+var sail3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. welcome to the SAIL TECH TALENT PROGRAM, where novice are being developed to Junior FULLSTACK DEVELOPER with 6 months duration free of charge. Thanks to Senator Adetokunbo Abiru for the Sponsoring this program";
+var sail4 = sail3.length-1;
+console.log("The index of last letter of the sentence in sail3 is " + sail4)
 console.log("")
 
 
