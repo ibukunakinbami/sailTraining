@@ -199,14 +199,19 @@ console.log("")
 //Numeric [], Associative {} and Multidimentional Array
 
 //Declaring Numeric Array
-var names = ["Ibukun","Tolu", 5, "Wale", "Sola"]
+var names = ["Ibukun", "Tolu", 5, "Wale", "Sola"]
 //Assesing Numeric Array
 console.log("Value of Zero Index is " + names[0])
 console.log("Value of 2nd Index is " + names[2])
 console.log("")
 
 //Declaring Associative Array
-var collections = {fruit:"Mango", age:35, state:"Ekiti", governor:"Fayemi"}
+var collections = {
+    fruit: "Mango",
+    age: 35,
+    state: "Ekiti",
+    governor: "Fayemi"
+}
 //Assesing Associate Array 
 console.log(collections.state)
 console.log("")
@@ -214,15 +219,191 @@ console.log(collections["age"])
 console.log("")
 
 //Declaring Multidimentional Array
-var data = [
-    {sex:"male", name:"Jeff"},
-    {sex:"female", name:"Tunde"},
-    {sex:"male", name:"Taylor"},
-    {sex:"female", name:"Madison"}
+var data = [{
+        sex: "male",
+        name: "Jeff"
+    },
+    {
+        sex: "female",
+        name: "Tunde"
+    },
+    {
+        sex: "male",
+        name: "Taylor"
+    },
+    {
+        sex: "female",
+        name: "Madison"
+    }
 ];
 console.log(data[2].name)
+console.log("")
 
-//
+//Thursday, 31st March, 2022
+//To Display Current Time and Date
+var currentDateAndTime = new Date;
+console.log("Current Date and Time is " + currentDateAndTime)
+console.log("")
+
+var firstNumber = 100;
+var secondNumber = 20;
+var result = (firstNumber - secondNumber)
+console.log(result)
+console.log("")
+
+//BOOLEAN TYPE
+var rightAnswer = true;
+console.log("Right Answer is " + rightAnswer)
+console.log("")
+
+var wrongAnswer = false;
+console.log("Wrong Answer is " + wrongAnswer)
+console.log("")
+
+//! is the negation i.e opposite of first Statement
+var morningGreeting = true;
+console.log(!morningGreeting)
+console.log("")
+
+var isMorning = true;
+var isAfternoon = !isMorning;
+console.log(isAfternoon)
+console.log("")
+var isEvening = !isMorning;
+console.log(!isEvening)
+console.log("")
+
+// single =  and === are used for Assignment and Comaparison respectively
+var bigNumber = "3";
+var smallNumber = 3;
+var result = (bigNumber === smallNumber)
+console.log(result)
+console.log("")
+
+var go = true;
+var stop = false;
+var slowDown = go !== stop;
+console.log("Output of slowDown is " + slowDown)
+console.log("")
+
+//Exercise 1
+var petName = "Jessie";
+var breed = "Labrador";
+var age = 3;
+var petDescription = (petName + "-" + breed + "," + age)
+console.log("Content of petDescrition is " + petDescription)
+console.log("")
+
+//Exercise 2
+var age = 3;
+var humanAge = age * 7;
+console.log("She is " + humanAge + " years Old")
+console.log("")
+
+//Exercise 3
+var numberOfWaterTaken = 5;
+var timeDifference = "3 hours";
+var result = ("Water Consumption: " + numberOfWaterTaken)
+var result2 = ("Time Difference: " + timeDifference)
+console.log(result)
+console.log("")
+console.log(result2)
+console.log("")
+
+//Exercise 4
+var availableCars = 35;
+var garageSize = 20;
+var readyToPark = garageSize < availableCars;
+console.log(readyToPark)
+console.log("")
+
+//Exercise 5
+var minimum =5;
+var maximum = 10;
+console.log(minimum < maximum)
+console.log("")
+console.log(maximum < minimum)
+console.log("")
+
+//Exercise 6
+var currentBatteryLevel = 40;
+var lowBattery = currentBatteryLevel <= 20;
+console.log("My Android Battery Level is " + lowBattery)
+console.log("")
+
+//Exercise 7
+var currentPhoneBatteryLevel = "15%";
+var lowPhoneBattery = currentPhoneBatteryLevel <= "30%";
+console.log("Battery low: " + lowPhoneBattery)
+console.log("")
+
+//Exercise 8
+var candidateOnePoint = 15;
+var pointToQualify = 10;
+console.log(candidateOnePoint >= pointToQualify)
+console.log("")
+
+//Exercise 9
+//Check if solved is less than or equal to minimum provided 
+//solved to be 20 and minimum 10
+var minimum = 10;
+var solved = 20;
+var result = solved<=minimum;
+console.log(result)
+console.log("")
+console.log(!result)
+console.log("")
+
+//Exercise 10
+var position = "last";
+var expected = "first";
+var result = position!==expected;
+console.log(result)
+console.log("")
+
+//Exercise 11
+// In  a problem description give me the console output
+//given the variable age is 19,what is the driving age? if the
+//expected age to drive is 16
+var myAge = 19;
+var expectedAgeToDrive = 16;
+var result = myAge>=expectedAgeToDrive;
+console.log(result + "," + " Am qualified to drive")
+console.log("")
+
+//CONDITIONAL STATEMENT IN JAVASCRIPT
+//Example 1
+//Question:Provide a condotion to be true with an Output number of days
+
+if (true){
+    console.log("Number of Days: 10");
+}
+console.log("")
+
+/*
+if (false){
+    console.log("Number of Days: 10");
+}
+console.log("")
+*/
+
+//Example 2
+/*Using the if statement provide the comparison between two 
+variables highTemperature and LowTemperatute with the value
+40 and 10 degree Celcius respectively to be true if 
+lowTemperature is less than highTemperature
+*/
+
+var highTemperature = "40";
+var lowTemperature = "10";
+var statusTemperature = lowTemperature < highTemperature
+if (statusTemperature){
+    console.log(statusTemperature)
+}
+console.log("")
+
+
+
 
 
 
