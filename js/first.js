@@ -318,7 +318,7 @@ console.log(readyToPark)
 console.log("")
 
 //Exercise 5
-var minimum =5;
+var minimum = 5;
 var maximum = 10;
 console.log(minimum < maximum)
 console.log("")
@@ -348,7 +348,7 @@ console.log("")
 //solved to be 20 and minimum 10
 var minimum = 10;
 var solved = 20;
-var result = solved<=minimum;
+var result = solved <= minimum;
 console.log(result)
 console.log("")
 console.log(!result)
@@ -357,7 +357,7 @@ console.log("")
 //Exercise 10
 var position = "last";
 var expected = "first";
-var result = position!==expected;
+var result = position !== expected;
 console.log(result)
 console.log("")
 
@@ -367,7 +367,7 @@ console.log("")
 //expected age to drive is 16
 var myAge = 19;
 var expectedAgeToDrive = 16;
-var result = myAge>=expectedAgeToDrive;
+var result = myAge >= expectedAgeToDrive;
 console.log(result + "," + " Am qualified to drive")
 console.log("")
 
@@ -375,7 +375,7 @@ console.log("")
 //Example 1
 //Question:Provide a condotion to be true with an Output number of days
 
-if (true){
+if (true) {
     console.log("Number of Days: 10");
 }
 console.log("")
@@ -397,13 +397,124 @@ lowTemperature is less than highTemperature
 var highTemperature = "40";
 var lowTemperature = "10";
 var statusTemperature = lowTemperature < highTemperature
-if (statusTemperature){
+if (statusTemperature) {
     console.log(statusTemperature)
 }
 console.log("")
 
+//Monday, 4th April, 2022
+//To Display Current Time and Date
+var currentDateAndTime = new Date;
+console.log("Current Date and Time is " + currentDateAndTime)
+console.log("")
 
+//if else Conditional Statement
 
+//Example 1
 
+var isMorning = false;
+if (isMorning === true) {
+    console.log("Response is " + 2 + " hence, condition is True")
+} else {
+    console.log(1 + " Condition is False")
+}
+console.log("")
 
+//Example 2
 
+//If it is day, we want the bulb to be Switched OFF but if it is nighty we want the bulb to switched ON, 
+//using if statement display Switched ON on the Console.
+
+var nightTime = true;
+if (nightTime) {
+    console.log("The Bulb is Switched ON" + " because it is Night Time")
+} else {
+    console.log("The Bulb is Switched OFF" + " because it is Day Time")
+}
+console.log("")
+
+// The ELSE statement, doesn't need its own condition because it handles cases whereby the IF statement is FALSE
+
+//Example 3
+// if variable isSubscribed is TRUE and if Condition display enjoy 10% off, while that of the else display become a 
+//Subscriber, what is going to be at display in the console
+
+var isSubscribed = false;
+if (isSubscribed) {
+    console.log("Enjoy 10% discount")
+} else {
+    console.log("Become a Subscriber")
+}
+console.log("")
+
+//Example 4
+//Complete IF and ELSE statement in order to display HOMEFLIX and SKIP THE BALL, if a variable rating has a value
+//of 57, and if statement  has a condition of the rating to be greater than or equal to 90, displaying buy 
+//movie ticket
+var rating = 89.99;
+if (rating >= 90) {
+    console.log("Buy a movie Ticket")
+} else {
+    console.log("Homeflix and Skip the Ball")
+}
+console.log("")
+
+//The ELSE IF Statement can appear as many times as possible while the ELSE statement appears ONCE.
+//The ELSE IF statement is always come with condition unlike the else statement, that only has the code block
+
+//Example 5
+
+var timeOfDay = 2467;
+if (timeOfDay < 12) {
+    console.log("Good Morning!")
+    // alert("Good Morning!")
+} else if (timeOfDay < 16) {
+    console.log("Good Afternoon!")
+} else if (timeOfDay < 21) {
+    console.log("Good Evening!")
+} else if (timeOfDay <= 23.59) {
+    console.log("Good Night!")
+} else {
+    console.log("Invalid Input")
+}
+console.log("")
+
+//Example 6
+//What will the code display in the console given variable score stored  to be 75, and the if statetement greater
+//than 70 displays YOU PASSED, else if greater than 90 displays YOU GOT AN A!
+//With additional else if statement, that is greater than 98 displays A+. review your console if the else statement 
+//says TRY AGAIN for every other options
+
+var score = 90;
+if (score >= 98) {
+    console.log("A+")
+} else if (score >= 90) {
+    console.log("YOU GOT AN A")
+} else if (score >= 70) {
+    console.log("YOU PASSED")
+} else {
+    console.log("TRY AGAIN")
+}
+console.log("")
+
+//Example 7
+//What does this code display in the console if a
+//variable cards has a value of 3, and is later reduced
+//by 6
+
+var cards = 3;
+// cards = cards -6;
+cards -= 6;
+console.log(cards)
+console.log("")
+
+//Example 8
+//write a lesser code in order to display the addition
+//of 4 buckets to current number of bucket which is 31
+
+var bucket = 31;
+bucket += 4;
+console.log(bucket + " buckets")
+console.log("")
+
+//WHILE LOOP
