@@ -526,8 +526,9 @@ while(biro){
 }
 console.log("")
 
-var biro <= 10;
-while(biro){
-    console.log("blue")
+var isPen = 4;
+while(isPen < 10){
+    console.log("Hello World")
+    isPen++
 }
 console.log("")
