@@ -518,3 +518,16 @@ console.log(bucket + " buckets")
 console.log("")
 
 //WHILE LOOP
+
+var biro = true;
+while(biro){
+    console.log("blue")
+    biro = false;
+}
+console.log("")
+
+var biro <= 10;
+while(biro){
+    console.log("blue")
+}
+console.log("")
