@@ -515,7 +515,7 @@ console.log("")
 var bucket = 31;
 bucket += 4;
 console.log(bucket + " buckets")
-console.log("")
+console.log()
 
 //WHILE LOOP
 
@@ -531,17 +531,37 @@ while(isPen <= 10){
     console.log("Hello World " + isPen)
     isPen++
 }
-console.log("")
+console.log()
 
 //DESIGN USA FLAG WITH WHILE LOOP
-var i = 1;
-while(i <= 5 ){
-    console.log("xxxxxxxxx----------")
-    i++
-}
+console.log("------USA FLAG------")
+console.log("xxxxxxxxxx----------")
+console.log("xxxxxxxxxx----------")
+console.log("xxxxxxxxxx----------")
+console.log("xxxxxxxxxx----------")
+console.log("xxxxxxxxxx----------")
+console.log("--------------------")
+console.log("--------------------")
+console.log("--------------------")
+console.log("--------------------")
+console.log("--------------------")
+console.log()
+// var i = 1;
+// while(i <= 5){
+//     console.log("xxxxxxxxxx----------")
+//     i++;
+// }
 
-var i = 1;
-while(i <= 5 ){
-    console.log("--------------------")
-    i++
-}
+// var i = 1;
+// while(i <= 5 ){
+//     console.log("--------------------")
+//     i++
+// }
+
+// for (i=0; i<=5; i++){
+//     console.log("xxxxxxxxxx----------")  
+// }
+
+// for (i=0; i<=5; i++){
+//     console.log("--------------------")  
+// }
