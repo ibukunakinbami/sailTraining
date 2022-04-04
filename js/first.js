@@ -519,16 +519,29 @@ console.log("")
 
 //WHILE LOOP
 
-var biro = true;
-while(biro){
-    console.log("blue")
-    biro = false;
-}
-console.log("")
+// var biro = true;
+// while(biro){
+//     console.log("blue")
+//     biro = false;
+// }
+// console.log("")
 
-var isPen = 4;
-while(isPen < 10){
-    console.log("Hello World")
+var isPen = 0;
+while(isPen <= 10){
+    console.log("Hello World " + isPen)
     isPen++
 }
 console.log("")
+
+//DESIGN USA FLAG WITH WHILE LOOP
+var i = 1;
+while(i <= 5 ){
+    console.log("xxxxxxxxx----------")
+    i++
+}
+
+var i = 1;
+while(i <= 5 ){
+    console.log("--------------------")
+    i++
+}
