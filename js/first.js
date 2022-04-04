@@ -427,9 +427,9 @@ console.log("")
 
 var nightTime = true;
 if (nightTime) {
-    console.log("The Bulb is Switched ON" + " because it is Night Time")
+    console.log(`The Bulb is Switched ON because it is Night Time`)
 } else {
-    console.log("The Bulb is Switched OFF" + " because it is Day Time")
+    console.log(`The Bulb is Switched OFF because it is Day Time`)
 }
 console.log("")
 
@@ -514,8 +514,8 @@ console.log("")
 
 var bucket = 31;
 bucket += 4;
-console.log(bucket + " buckets")
-console.log()
+console.log(`${bucket}  buckets`)
+console.log("")
 
 //WHILE LOOP
 
@@ -527,12 +527,13 @@ console.log()
 // console.log("")
 
 var isPen = 0;
-while(isPen <= 10){
-    console.log("Hello World " + isPen)
-    isPen++
+while (isPen <= 10) {
+    console.log(`Hello World  ${isPen}`);
+    isPen++;
 }
-console.log()
+console.log("")
 
+/*
 //DESIGN USA FLAG WITH WHILE LOOP
 console.log("------USA FLAG------")
 console.log("xxxxxxxxxx----------")
@@ -546,22 +547,30 @@ console.log("--------------------")
 console.log("--------------------")
 console.log("--------------------")
 console.log()
-// var i = 1;
-// while(i <= 5){
-//     console.log("xxxxxxxxxx----------")
-//     i++;
-// }
+*/
 
-// var i = 1;
-// while(i <= 5 ){
-//     console.log("--------------------")
-//     i++
-// }
+console.log("------USA FLAG------")
+console.log("--USING WHILE LOOP--")
+let i = 1;
+while (i <= 5) {
+    console.log(`xxxxxxxxxx----------  ${i}`);
+    i++;
+}
 
-// for (i=0; i<=5; i++){
-//     console.log("xxxxxxxxxx----------")  
-// }
+let i2 = 6;
+while(i2 <= 10 ){
+    console.log(`--------------------  ${i2}`);
+    i2++;
+}
+console.log("")
 
-// for (i=0; i<=5; i++){
-//     console.log("--------------------")  
-// }
+// FOR LOOP
+console.log("------USA FLAG------")
+console.log("----USING FOR LOOP----")
+for (let i3=0; i3<=5; i3++){
+    console.log(`xxxxxxxxxx----------  ${i3}`);  
+}
+
+for (let i4=6; i4<=10; i4++){
+    console.log(`--------------------  ${i4}`);  
+}
