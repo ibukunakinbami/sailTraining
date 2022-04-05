@@ -549,28 +549,138 @@ console.log("--------------------")
 console.log()
 */
 
-console.log("------USA FLAG------")
-console.log("--USING WHILE LOOP--")
-let i = 1;
-while (i <= 5) {
-    console.log(`xxxxxxxxxx----------  ${i}`);
-    i++;
+// console.log("------USA FLAG------")
+// console.log("--USING WHILE LOOP--")
+let counter1 = 1;
+while (counter1 <= 5) {
+    console.log(`xxxxxxxxxx----------  ${counter1}`);
+    counter1++;
 }
 
-let i2 = 6;
-while(i2 <= 10 ){
-    console.log(`--------------------  ${i2}`);
-    i2++;
+let counter2 = 6;
+while (counter2 <= 10) {
+    console.log(`--------------------  ${counter2}`);
+    counter2++;
 }
 console.log("")
 
 // FOR LOOP
-console.log("------USA FLAG------")
-console.log("----USING FOR LOOP----")
-for (let i3=0; i3<=5; i3++){
-    console.log(`xxxxxxxxxx----------  ${i3}`);  
+// console.log("------USA FLAG------")
+// console.log("----USING FOR LOOP----")
+for (let counter3 = 1; counter3 <= 5; counter3++) {
+    console.log(`xxxxxxxxxx----------  ${counter3}`);
 }
 
-for (let i4=6; i4<=10; i4++){
-    console.log(`--------------------  ${i4}`);  
+for (let counter4 = 6; counter4 <= 10; counter4++) {
+    console.log(`--------------------  ${counter4}`);
 }
+console.log("")
+
+//Tuesday 5th April 2022
+//To Display Current Time and Date
+var currentDateAndTime = new Date;
+console.log("Current Date and Time is " + currentDateAndTime)
+console.log("")
+
+/*
+let yourAge = window.prompt("Enter your age: ")
+let firstName = window.prompt("Enter your firstNAme: ")
+//console.log(yourAge)
+yourAge = parseInt(yourAge);
+console.log(typeof(yourAge))
+if (yourAge < 100){
+    console.log(`Welcome ${firstName} you are  ${yourAge} years Old, You are Eligible to participate`)
+}else {
+    console.log(`You are not Eligible ${firstName} since you are Older than 100 years`)
+}
+console.log("")
+*/
+
+//TERNARY OPERATOR is basically IF ELSE
+/*
+Ternary Operators are simplifies conditional operators that 
+assign values to variables depending on a particular condition
+ */
+
+//Instead of using IF ELSE, Use the code below
+
+let colorNumber = 50;
+let color = colorNumber > 20 ? 'orange' : 'blue';
+console.log(color)
+console.log("")
+
+//SWITCH CASE
+
+//Example 1
+
+/*
+let userIput = window.prompt("How many color do you have left?")
+userIput = parseInt(userIput)
+*/
+let userIput = 1;
+let colorInStock = userIput > 10 ? 'red' : 'blue';
+switch (colorInStock) {
+    case 'red':
+        console.log("Color is Red")
+        break;
+    case 'blue':
+        console.log("Color is Blue")
+        break;
+    default:
+        console.log("Invalid Color")
+}
+console.log("")
+
+//Example 2  
+//Score Card Report
+/*
+let studentScore = window.prompt("Enter student score:");
+let studentCourse = window.prompt("Enter your Subject")
+studentScore = parseInt(studentScore)
+switch(true){
+    case (studentScore > 100):
+        console.log("You cannot Score more than 100")
+        break;
+    case (studentScore >= 70):
+        console.log(`You have A in ${studentCourse}`)
+        break;
+    case(studentScore >= 60):
+        console.log(`You have B in ${studentCourse}`)
+        break;
+    case(studentScore >= 50):
+        console.log(`You have C in ${studentCourse}`)
+        break;
+    case(studentScore >= 45):
+        console.log(`You have D in ${studentCourse}`)
+        break;
+    case(studentScore >= 40):
+        console.log(`You have E in ${studentCourse}`)
+        break;
+    case(studentScore >= 0):
+        console.log(`You have F in ${studentCourse}`)
+        break;
+    default:
+        console.log("You didn't register for this Course")
+}
+*/
+
+//FUNTION
+
+function myFunction(p1,p2){
+    return console.log(p1*p2);
+}
+
+myFunction(3,5)
+myFunction(4,7)
+myFunction(3,2.5)
+myFunction(5,5.3)
+
+//THE ES6 ARROW FUNCTION SYNTAX
+let myFunction2 = (a, b) => a*b;
+
+
+let numbers = [1, -1, 2, 3];
+let filtered =numbers.filter(function(value){
+ return value>1;
+});
+console.log(filtered)
