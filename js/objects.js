@@ -97,10 +97,10 @@ class student{
     }
 }
 let stud1 = new student("Ibukun", 2, 3)
-console.log(stud1.study())
+stud1.study()
 console.log("")
 
-//Example 1
+//Example 
 
 class studentResult {
     constructor(name,age,gpa){
@@ -112,7 +112,26 @@ class studentResult {
         console.log(`${this.name} is ${this.age} years Old Scores ${this.gpa}`)
     }
 }
-let student1 = new studentResult("Nzubae",50,"2.0")
+let student1 = new studentResult(window.prompt("Enter your Fullname:"),window.prompt("Enter your Age:"),window.prompt("Enter your GPA:"))
 student1.study2()
+console.log("")
 
+let student2 = new studentResult(window.prompt("Enter your Fullname:"),window.prompt("Enter your Age:"),window.prompt("Enter your GPA:"))
+student2.study2()
+console.log("")
+
+/*
+if (student1.gpa>student2.gpa){
+    alert(`Hurray! ${student1.name} is the best Student with ${student1.gpa}`)
+}else{
+    alert(`Hurray! ${student2.name} is the best Student with ${student2.gpa}`)
+}
+*/
+
+let gpaCase = student1.gpa>student2.gpa;
+if (gpaCase){
+    alert(`Hurray! ${student1.name} is the best Student with ${student1.gpa}`)
+}else{
+    alert(`Hurray! ${student2.name} is the best Student with ${student2.gpa}`)
+}
 
