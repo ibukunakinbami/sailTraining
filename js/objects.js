@@ -128,10 +128,13 @@ if (student1.gpa>student2.gpa){
 }
 */
 
+//Using Boolean as test condition
 let gpaCase = student1.gpa>student2.gpa;
 if (gpaCase){
     alert(`Hurray! ${student1.name} is the best Student with ${student1.gpa}`)
+    console.log(`Hurray! ${student1.name} is the best Student with ${student1.gpa}`)
 }else{
     alert(`Hurray! ${student2.name} is the best Student with ${student2.gpa}`)
+    console.log(`Hurray! ${student2.name} is the best Student with ${student2.gpa}`)
 }
 
