@@ -1,3 +1,53 @@
 To Add Current year
 <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Your Name All Rights Reserved</p>
 
+Friday, 8th April, 2022
+font-Awesome
+<script src="https://kit.fontawesome.com/96612da407.js" crossorigin="anonymous"></script>
+
+Template
+
+<body>
+  <!-- solid style -->
+  <i class="fa-solid fa-user"></i>
+
+  <!-- regular style -->
+  <i class="fa-regular fa-user"></i>
+
+  <!-- light style -->
+  <i class="fa-light fa-user"></i>
+
+  <!-- duotone style -->
+  <i class="fa-duotone fa-user"></i>
+
+  <!-- all new thin style -->
+  <i class="fa-thin fa-user"></i>
+
+  <!--brand icon-->
+  <i class="fa-brands fa-github-square"></i>
+</body>
+
+
+SSM icons
+
+instagram
+<i class="fa-brands fa-instagram"></i>
+
+linkedln
+<i class="fa-brands fa-linkedin"></i>
+
+github
+<i class="fa-brands fa-github"></i>
+
+facebook
+<i class="fa-brands fa-facebook"></i>
+
+twitter
+<i class="fa-brands fa-twitter"></i>
+
+
+
+
+
+
+
