@@ -35,9 +35,9 @@ console.log(church)
 console.log("")
 
 // Example 2
-var temrperature = "100 degree Celcius";
-var temrperature = "0 degree Celcius";
-console.log(temrperature)
+var temperature = "100 degree Celcius";
+var temperature = "0 degree Celcius";
+console.log(temperature)
 console.log("")
 
 // Variable - Numbers
@@ -218,7 +218,7 @@ console.log("")
 console.log(collections["age"])
 console.log("")
 
-//Declaring Multidimentional Array
+//Declaring Multidimentional or Nested Array
 var data = [{
         sex: "male",
         name: "Jeff"
@@ -680,7 +680,7 @@ let myFunction2 = (a, b) => a*b;
 
 
 let numbers = [1, -1, 2, 3];
-let filtered =numbers.filter(function(value){
+let filtered = numbers.filter(function(value){
  return value>1;
 });
 console.log(filtered)
