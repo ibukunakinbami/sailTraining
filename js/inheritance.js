@@ -47,3 +47,45 @@ class Snail extends Animal{
         console.log(`${this.animalName} moves Slowly`)
     }
 }
+
+//Assignment
+//
+class Cars{
+    engine = true;
+
+    static numberOfCars = 0;
+    constructor(transmission){
+        this.transmission=transmission;
+        numberOfCars += 1;
+    }
+    
+    drive(){
+        console.log(`All cars can drive`)
+    }
+    reverse(){
+        console.log(`All car can reverse`)
+    }
+    park(){
+        console.log(`All cars can be parked`)
+    }    
+}
+// let car1 = new Cars("Corolla")
+// console.log(car1.drive)
+
+
+//CHILD CLASS
+class maseratti extends Cars{
+     
+}
+
+class bullionVan extends Cars{
+  
+}
+
+class Golf extends Cars{
+    
+}
+
+class Danfo extends Cars{    
+    
+}
