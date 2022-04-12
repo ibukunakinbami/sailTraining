@@ -1,12 +1,14 @@
 class Animal {
     alive = true;
-}
-
-class rabbit extends Animal{
-     constructor(name,age){
+    constructor(name,age){
         this.name = name;
         this.age = age;
     }
 }
 
+class rabbit extends Animal{ 
+    super(name,age)
+    }
+
 let animal1 = new rabbit()
+console.log(rabbit)

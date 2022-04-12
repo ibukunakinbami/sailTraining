@@ -17,4 +17,4 @@ let myFunction = () => {
  <!--with and  without () --> respectively
 
  <!-- SUPER -->
-
+Super is a keyword used to make constructor accesible to other class from the parent class
