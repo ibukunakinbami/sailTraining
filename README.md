@@ -25,3 +25,5 @@ Get is a keyword in javascript whose job is to bind an object property to a func
 get is a keyword not method 
 
 get helps in data security
+
+Finally we were given a class work to be done 
