@@ -27,3 +27,61 @@ get is a keyword not method
 get helps in data security
 
 Finally we were given a class work to be done 
+
+<!-- Thursday, 21st April, 2022 -->
+
+
+We designed a SquareRoot Calculator
+
+<!-- Revision -->
+
+<!-- 
+
+window.prompt  
+
+--> always accept string, you need to convert it to number if needed
+
+<!-- 
+
+var 
+
+--> has a global scope 
+
+while
+
+<!-- 
+
+let 
+
+--> 
+and
+
+<!-- 
+
+const 
+
+--> has block level scope
+
+<!-- 
+
+Arrow Function 
+
+--> has the format below;
+  for a single line of code use this
+
+  <!-- 
+  
+  let a = () => 
+  
+  -->
+
+for a multi line of code that return value
+
+<!-- 
+
+let a = () => {
+
+} 
+
+-->
+

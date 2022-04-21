@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: blue;
+    border: 1px solid gray;
+    border-radius: 2px;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    
+}
