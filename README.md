@@ -85,3 +85,13 @@ let a = () => {
 
 -->
 
+<!-- Monday, 25th April, 2022 -->
+
+file created are:
+dom.html
+dom.js
+
+<!-- DOM  -->
+It is simply short hand for document Object Model. Technically its an API used for
+affecting the contents of a webpage.
+
