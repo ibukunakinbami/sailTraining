@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+
+#output{
+    margin: auto;
+    font-size: 4rem;
+    margin-top: 50px;
+    border: 1px solid white;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.control{
+    font-size: 4rem;
+    padding: 20px;
+    border: none;
+    
+
+}
+
+

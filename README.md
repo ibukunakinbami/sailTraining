@@ -98,6 +98,41 @@ affecting the contents of a webpage.
 
 <!-- Tuesday, 26th April, 2022 -->
 
-file created are:
+We continued with the already created files below:
 dom.html
 dom.js
+
+<!-- iteration / loop, Use any of the following -->
+
+while 
+for
+map
+forEach
+
+<!-- Conversion  -->
+if the item to iterate is not a Nodelist, kindly convert it to Nodelist (Array) using the code below 
+<!-- Array.from -->
+
+<!-- querySelector -->
+Format with cases
+
+<!-- Return first item in an Array -->
+document.querySelector("li")
+
+<!-- Return all items in an Array -->
+document.querySelectorAll("li")
+
+<!-- Return item in an by Class Name -->
+document.querySelector(".classname")
+
+<!-- Return item in an by id Name -->
+document.querySelector("#idname")
+
+<!-- Return item in an by attribute Name -->
+document.querySelector(["attributeName"])
+
+
+
+
+
+

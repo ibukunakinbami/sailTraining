@@ -1,6 +1,7 @@
 //Score Card Report
-let studentScore = window.prompt("Enter student score:");
+let studentScore = window.prompt("Enter student score:")
 let studentCourse = window.prompt("Enter your Subject")
+let studentMatricNumber = window.prompt("Enter your Matric Number:")
 studentScore = parseInt(studentScore)
 switch(true){
     case (studentScore > 100):

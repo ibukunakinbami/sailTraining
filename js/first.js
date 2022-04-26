@@ -50,6 +50,7 @@ console.log("")
 // Example 1
 var instagramLikes = 200;
 console.log(instagramLikes + facebookLikes + 400)
+// console.log(`${instagramLikes} + ${facebookLikes} + 400`)
 console.log("")
 
 // Example 2
