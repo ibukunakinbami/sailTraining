@@ -95,3 +95,9 @@ dom.js
 It is simply short hand for document Object Model. Technically its an API used for
 affecting the contents of a webpage.
 
+
+<!-- Tuesday, 26th April, 2022 -->
+
+file created are:
+dom.html
+dom.js
