@@ -137,9 +137,35 @@ document.querySelector("#idname")
 document.querySelector(["attributeName"])
 
 We did a project called 
-Counter
+<!-- Counter -->
 
+<!-- Thursday, 28th April, 2022 -->
+HOW TO CREATE ELEMENT and Tags Using DOM
+Created new file, which are:
 
+domAddRemoveElement.html
+domAddRemoveElement.js
 
+<!-- JAVASCRIPT EVENTS -->
+Usuaally webpages are built so that users can be 
+
+which are;
+
+onclick
+onchange
+onmouseover
+onmouseout
+onmousedown
+onmouseup
+onload
+
+<!-- onclick -->
+We can listen for click events in javascript using the onclick property. This is usually assigned to Function
+
+<!-- onchange -->
+We can listen for change events in javascript using the onchange property. This is also usually assigned a function.
+
+<!-- onload -->
+This is a very 
 
 
