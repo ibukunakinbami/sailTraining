@@ -102,6 +102,11 @@ We continued with the already created files below:
 dom.html
 dom.js
 
+Created 2 new file, which are:
+
+domTraversal.html
+domTraversal.js
+
 <!-- iteration / loop, Use any of the following -->
 
 while 
@@ -131,6 +136,8 @@ document.querySelector("#idname")
 <!-- Return item in an by attribute Name -->
 document.querySelector(["attributeName"])
 
+We did a project called 
+Counter
 
 
 
