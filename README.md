@@ -169,3 +169,9 @@ We can listen for change events in javascript using the onchange property. This 
 This is a very 
 
 
+<!-- Thursday, 5th May, 2022 -->
+
+We created the files below:
+mediaquery.html
+mediaquery.css
+
