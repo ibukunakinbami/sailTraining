@@ -175,3 +175,21 @@ We created the files below:
 mediaquery.html
 mediaquery.css
 
+<!-- Tuesday, 10th May, 2022 -->
+
+We created the files below:
+addNumbers.html
+addNumbers.css
+addNumbers.js
+
+By default, windows prompt Output is STRING, hence you need to convert it to 
+Integer
+
+We also did Rock, Scissors and Paper game
+
+R&D
+
+For blockchain Training
+
+https://consensys.net/academy/online-programs/
+
