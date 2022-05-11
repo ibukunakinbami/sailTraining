@@ -1,28 +1,36 @@
-#container{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 0px 10px gray; 
-    margin: 5% 25%;   
-    padding-bottom: 100px;
-    border-radius: 5px;
 }
 
-h1{
+#container {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 0px 0px 10px gray;
+    padding-bottom: 100px;
+    border-radius: 5px;
+    width: 20%;
+    height: 80vh;
+}
+
+h1 {
     color: blue;
 }
 
-#addNumbers{
+#addNumbers {
     height: 50px;
     width: 100px;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-button{
+button {
     background-color: blue;
     color: white;
     font-size: 1.5rem;
@@ -30,3 +38,11 @@ button{
     border: none;
     cursor: pointer;
 }
+
+button:hover{   
+        background-color: orange;
+        color: white;
+        font-size: 1.5rem;
+        border-radius: 5px;
+        border: none;  
+   }
