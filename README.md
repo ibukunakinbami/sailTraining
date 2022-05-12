@@ -181,9 +181,12 @@ We created the files below:
 addNumbers.html
 addNumbers.css
 addNumbers.js
+rps.html
+rps.css
+rps.js
 
 By default, windows prompt Output is STRING, hence you need to convert it to 
-Integer
+Integer using ParseInt
 
 We also did Rock, Scissors and Paper game
 
@@ -193,3 +196,12 @@ For blockchain Training
 
 https://consensys.net/academy/online-programs/
 
+<!-- Tuesday, 12th May, 2022 -->
+
+We created the files below:
+
+
+We continued the  Rock, Scissors and Paper game
+
+API
+Application Programming interface

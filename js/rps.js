@@ -12,6 +12,22 @@ choiceBtn.forEach((button)=> button.addEventListener("click", ()=>{
 }))
 
 function computerTurn(){
-    const randNum = Math.floor(Math.random()*3)*1;
+    const randNum = Math.floor(Math.random()*3);
     console.log(randNum)
+    switch(randNum){
+        case 0:
+            computer = "Rocks";
+            //console.log("ROCKS")
+            break;
+        case 1:
+            computer = "Paper";
+            //console.log("PAPER")
+            break;
+        default:
+            computer = "Scissors";
+            //console.log("Scissors")
+            break;
+    }
 }
+
+computerTurn()
