@@ -204,4 +204,9 @@ We created the files below:
 We continued the  Rock, Scissors and Paper game
 
 API
-Application Programming interface
+
+Application Programming interface: it is a software intermediary that allows two applications to communicate and share data
+
+openweathermap.org
+
+https://openagro.uk/
