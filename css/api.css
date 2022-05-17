@@ -1,6 +1,24 @@
-header{
+/* *{
+    margin: 0;
+    padding: 0;
+
+} */
+
+header {
     background: 100%;
-    background-color: black;
+    background-color: blue;
     color: white;
     text-align: center;
+}
+
+#getReq {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 0.75em;
+    cursor: pointer;
+    box-shadow: 0 0 10px blue;
 }
