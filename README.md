@@ -217,3 +217,6 @@ https://openagro.uk/
 https://www.programmableweb.com/news/10-popular-agriculture-apis-2022/brief/2020/11/15#:~:text=An%20Agriculture%20API%20is%20an,of%20the%20ProgrammableWeb%20API%20directory.
 
 https://agromonitoring.com/
+ 
+
+ 
