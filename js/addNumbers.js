@@ -4,7 +4,10 @@ let num2 = parseInt(prompt("Enter second Number"));
 const addOperator = document.querySelector("#addNumbers");
 
 // Function Block: Addition of two numbers
-addOperator.addEventListener("click", function () {
+addOperator.addEventListener("click", addNumber())
+
+// function addNumber()
+function addNumber () {
     let sum = num1 + num2;
     document.querySelector("#output").textContent = sum;
-})
+}
