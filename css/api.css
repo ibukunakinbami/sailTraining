@@ -23,6 +23,7 @@ header {
     box-shadow: 0 0 10px blue;
 }
 
+/* To center div element */
 div{
     display: flex;
     align-items: center;
