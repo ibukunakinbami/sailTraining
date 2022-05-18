@@ -22,3 +22,9 @@ header {
     cursor: pointer;
     box-shadow: 0 0 10px blue;
 }
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
