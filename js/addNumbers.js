@@ -11,3 +11,7 @@ function addNumber () {
     let sum = num1 + num2;
     document.querySelector("#output").textContent = sum;
 }
+function sustractNumber () {
+    let substract = num1 - num2;
+    document.querySelector("#output").textContent = substract;
+}
