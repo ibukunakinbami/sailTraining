@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 
-#getReq {
+#getReq, #postReq {
     padding: 15px 20px;
     border-radius: 10px;
     border: none;
