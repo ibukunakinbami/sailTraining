@@ -219,4 +219,11 @@ https://www.programmableweb.com/news/10-popular-agriculture-apis-2022/brief/2020
 https://agromonitoring.com/
  
 
+<!-- Thursday, 26th May, 2022 -->
+
+We created the files below, for a food recipe websites
+
+foodRecipes.html
+foodRecipes.css
+foodRecipes.js
  
