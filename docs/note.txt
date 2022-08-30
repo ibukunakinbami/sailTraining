@@ -14,3 +14,89 @@ pdfdrive.com
 Thursday, 12th May, 2022
 for free icons, photos etc
 https://icons8.com/
+
+Thursday, 4th August, 2022
+NodeJS
+
+Dave Gray
+
+https://www.youtube.com/watch?v=f2EqECiTBL8
+
+
+https://www.youtube.com/watch?v=vVAsjQ0H9hU&list=PLSmgMHKHJD01n0eapr-qhWFsMQNax_-CW
+
+MongoDB
+https://www.youtube.com/playlist?list=PLp50dWW_m40UWFSV6PTgYzciZJIxgHy7Q
+
+ExpressJS & NODEJS
+
+https://www.youtube.com/watch?v=Oe421EPjeBE
+
+
+Redux
+
+Git Bash Command
+
+Username
+git config --global user.name "ibukun"
+
+Email
+git config --global user.email "ibukunakinbami@gmail.com"
+
+git config --list
+
+To switch to root directory
+cd ~
+
+To delete a directory
+rmdir directory or rm -rf directory
+
+To start git 
+git init inside the directory
+
+To open VS Code from Gitbash
+code .
+
+To create file
+touch filename 
+
+To Add individual file in git
+git add filename
+
+To Add all files at same time
+git add * or git add .
+
+To commit file and directory
+git commit -m "I add about"
+
+To commit
+small letter m i.e. commit -m "added assets file" 
+
+main or master is where the Production projects recides
+
+To change branch name
+git branch -M main
+
+To create new branch
+git branch "branchname" i.e. git branch ikorodu-campus
+
+To list created branch
+git branch 
+
+To change to another branch
+git checkout "branchname" i.e. git checkout ikorodu-campus
+
+
+To create a new branch and checkout at the same time
+git checkout
+
+To connect to remote repo i.e github repo 
+git remote add origin "repo link from the github"  e.g git remote add origin https://GeneralOlutoye/MyReactProject.git
+
+To upload local repo to remote
+git push -u "branch name" e.g git push -u main
+
+
+
+
+

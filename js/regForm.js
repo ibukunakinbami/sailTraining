@@ -12,4 +12,4 @@ fetch("http://httpbin.org/post",{
     .then(data => console.log(data))
     .catch(err => console.log(err));
 
-})
+}
